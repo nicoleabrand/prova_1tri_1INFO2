@@ -11,11 +11,14 @@
     */
 
     //ENTRADA
-
+    const preconormal = Number(prompt(`Qual o valor da modalidade normal?`).replace(",",".")) 
+    const precocamarote = Number(prompt(`Qual o valor da modalidade camarote?`).replace(",",".")) 
+    const precovip = Number(prompt(`Qual o valor da modalidade VIP?`).replace(",",".")) 
 
     //PROCESSAMENTO
-
+    const media = (preconormal+precocamarote+precovip) / 3
 
     //SAÍDA
+    document.write (`A média de preço do show é de R$${media.toFixed(2).replace(".",",")}`)
 
 </script>

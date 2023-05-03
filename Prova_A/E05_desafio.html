@@ -8,11 +8,13 @@
     */
 
     //ENTRADA
-
-
+    const rodados = Number(prompt(`Informe quantos km a moto percorre com cada litro de combustível`))
+    const percorridos = Number(prompt(`Informe quantos km a moto já percorreu`))
+    
     //PROCESSAMENTO
-
-
+    const valortotal = (percorridos/rodados) + (rodados*2000/200)
+    
     //SAÍDA
+    document.write (`O custo total da manutenção foi de R$${valortotal.toFixed(2).replace(".",",")}`)
 
 </script>

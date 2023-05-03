@@ -8,11 +8,13 @@
     */
 
     //ENTRADA
-
+    const idade = Number(prompt(`Informe a idade do pet`).trim())
+    const consulta = Number(prompt(`Informe o valor da consulta`).trim().replace(",","."))
+    const vacinas = Number(prompt(`Informe o valor para aplicação de vacinas`).trim().replace(",","."))
 
     //PROCESSAMENTO
-
+    const valor = (consulta+vacinas)*idade
 
     //SAÍDA
-
+    document.write (`O valor total gasto com o pet até o momento é de R$${valor.toFixed(2).replace(".",",")}`)
 </script>

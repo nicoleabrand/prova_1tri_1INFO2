@@ -7,11 +7,12 @@
     */
 
     //ENTRADA
-
+    let inflacao = Number(prompt(`Informe a inflação atual em porcentagem`).trim().replace(",","."))
 
     //PROCESSAMENTO
-
+    const salario = 1320*inflacao
 
     //SAÍDA
+    document.write(`O salário mínimo em 2024 será de R$${salario.toFixed(2).replace(".",",")}`)
 
 </script>
