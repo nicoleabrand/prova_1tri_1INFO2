@@ -15,7 +15,7 @@ Para realizar a prova, não esqueça de clonar o repositório, seguindo os segui
 Após abrir o VSCode, feche todos os arquivos que estão abertos (poderá ir ao menu Arquivo - ou _File_, selecionar a opção Fechar Pasta - ou _Close Folder_.)
 
 Agora que não há nenhum arquivo aberto, siga os seguintes passos:
-- Pressione as teclas **CTRL** **Shift** e a letra **K**
+- Pressione as teclas **CTRL** **Shift** e a letra **P**
 - Digite ***clon***
 - Selecione a opção Git Clone (para clonar repositório do Git)
 - Cole a URL do repositório, pressionando a tecla **CTRL** e a letra **V**
